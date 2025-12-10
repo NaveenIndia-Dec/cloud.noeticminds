@@ -1,0 +1,6 @@
+*.tar.gz
+*.sql
+*.zip
+*.bak
+*.rar
+*.7z

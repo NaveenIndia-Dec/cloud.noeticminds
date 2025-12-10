@@ -1,0 +1,333 @@
+$flaticon_xeco-font: "flaticon_xeco";
+
+@font-face {
+    font-family: $flaticon_xeco-font;
+    src: url("./flaticon_xeco.ttf?7b6ef4e4b2d119c932b2491eed1ed072") format("truetype"),
+url("./flaticon_xeco.woff?7b6ef4e4b2d119c932b2491eed1ed072") format("woff"),
+url("./flaticon_xeco.woff2?7b6ef4e4b2d119c932b2491eed1ed072") format("woff2"),
+url("./flaticon_xeco.eot?7b6ef4e4b2d119c932b2491eed1ed072#iefix") format("embedded-opentype"),
+url("./flaticon_xeco.svg?7b6ef4e4b2d119c932b2491eed1ed072#flaticon_xeco") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_xeco !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_xeco-map: (
+    "right-arrow": "\f101",
+    "down-arrow": "\f102",
+    "right-arrow-1": "\f103",
+    "left": "\f104",
+    "next": "\f105",
+    "mouse-cursor": "\f106",
+    "arrow": "\f107",
+    "sync": "\f108",
+    "puzzle-piece": "\f109",
+    "profit": "\f10a",
+    "dashboard": "\f10b",
+    "development": "\f10c",
+    "budget": "\f10d",
+    "mission": "\f10e",
+    "briefcase": "\f10f",
+    "challenges": "\f110",
+    "report": "\f111",
+    "investment": "\f112",
+    "taxes": "\f113",
+    "briefcase-1": "\f114",
+    "design": "\f115",
+    "money": "\f116",
+    "rocket": "\f117",
+    "piggy-bank": "\f118",
+    "save-money": "\f119",
+    "business-presentation": "\f11a",
+    "data-management": "\f11b",
+    "folder": "\f11c",
+    "handshake": "\f11d",
+    "report-1": "\f11e",
+    "calculator": "\f11f",
+    "settings": "\f120",
+    "layers": "\f121",
+    "round-table": "\f122",
+    "magnifying-glass": "\f123",
+    "search": "\f124",
+    "user": "\f125",
+    "user-1": "\f126",
+    "padlock": "\f127",
+    "padlock-1": "\f128",
+    "time": "\f129",
+    "clock": "\f12a",
+    "mail": "\f12b",
+    "open-email": "\f12c",
+    "pin": "\f12d",
+    "location": "\f12e",
+    "telephone": "\f12f",
+    "phone-call": "\f130",
+    "support": "\f131",
+    "shopping-cart": "\f132",
+    "shopping-cart-1": "\f133",
+    "heart": "\f134",
+    "heart-1": "\f135",
+    "code": "\f136",
+    "folder-1": "\f137",
+    "curve": "\f138",
+    "inspiration": "\f139",
+    "left-chevron": "\f13a",
+    "trophy": "\f13b",
+    "winner": "\f13c",
+    "rating": "\f13d",
+    "life-insurance": "\f13e",
+    "car-insurance": "\f13f",
+    "protection": "\f140",
+    "travel-insurance": "\f141",
+    "protection-1": "\f142",
+    "conflagration": "\f143",
+    "property-insurance": "\f144",
+    "family": "\f145",
+    "healthcare": "\f146",
+    "house": "\f147",
+    "ship": "\f148",
+    "family-insurance": "\f149",
+    "umbrella": "\f14a",
+    "megaphone": "\f14b",
+    "bubble-chat": "\f14c",
+    "speech-bubble": "\f14d",
+);
+
+.flaticon-right-arrow:before {
+    content: map-get($flaticon_xeco-map, "right-arrow");
+}
+.flaticon-down-arrow:before {
+    content: map-get($flaticon_xeco-map, "down-arrow");
+}
+.flaticon-right-arrow-1:before {
+    content: map-get($flaticon_xeco-map, "right-arrow-1");
+}
+.flaticon-left:before {
+    content: map-get($flaticon_xeco-map, "left");
+}
+.flaticon-next:before {
+    content: map-get($flaticon_xeco-map, "next");
+}
+.flaticon-mouse-cursor:before {
+    content: map-get($flaticon_xeco-map, "mouse-cursor");
+}
+.flaticon-arrow:before {
+    content: map-get($flaticon_xeco-map, "arrow");
+}
+.flaticon-sync:before {
+    content: map-get($flaticon_xeco-map, "sync");
+}
+.flaticon-puzzle-piece:before {
+    content: map-get($flaticon_xeco-map, "puzzle-piece");
+}
+.flaticon-profit:before {
+    content: map-get($flaticon_xeco-map, "profit");
+}
+.flaticon-dashboard:before {
+    content: map-get($flaticon_xeco-map, "dashboard");
+}
+.flaticon-development:before {
+    content: map-get($flaticon_xeco-map, "development");
+}
+.flaticon-budget:before {
+    content: map-get($flaticon_xeco-map, "budget");
+}
+.flaticon-mission:before {
+    content: map-get($flaticon_xeco-map, "mission");
+}
+.flaticon-briefcase:before {
+    content: map-get($flaticon_xeco-map, "briefcase");
+}
+.flaticon-challenges:before {
+    content: map-get($flaticon_xeco-map, "challenges");
+}
+.flaticon-report:before {
+    content: map-get($flaticon_xeco-map, "report");
+}
+.flaticon-investment:before {
+    content: map-get($flaticon_xeco-map, "investment");
+}
+.flaticon-taxes:before {
+    content: map-get($flaticon_xeco-map, "taxes");
+}
+.flaticon-briefcase-1:before {
+    content: map-get($flaticon_xeco-map, "briefcase-1");
+}
+.flaticon-design:before {
+    content: map-get($flaticon_xeco-map, "design");
+}
+.flaticon-money:before {
+    content: map-get($flaticon_xeco-map, "money");
+}
+.flaticon-rocket:before {
+    content: map-get($flaticon_xeco-map, "rocket");
+}
+.flaticon-piggy-bank:before {
+    content: map-get($flaticon_xeco-map, "piggy-bank");
+}
+.flaticon-save-money:before {
+    content: map-get($flaticon_xeco-map, "save-money");
+}
+.flaticon-business-presentation:before {
+    content: map-get($flaticon_xeco-map, "business-presentation");
+}
+.flaticon-data-management:before {
+    content: map-get($flaticon_xeco-map, "data-management");
+}
+.flaticon-folder:before {
+    content: map-get($flaticon_xeco-map, "folder");
+}
+.flaticon-handshake:before {
+    content: map-get($flaticon_xeco-map, "handshake");
+}
+.flaticon-report-1:before {
+    content: map-get($flaticon_xeco-map, "report-1");
+}
+.flaticon-calculator:before {
+    content: map-get($flaticon_xeco-map, "calculator");
+}
+.flaticon-settings:before {
+    content: map-get($flaticon_xeco-map, "settings");
+}
+.flaticon-layers:before {
+    content: map-get($flaticon_xeco-map, "layers");
+}
+.flaticon-round-table:before {
+    content: map-get($flaticon_xeco-map, "round-table");
+}
+.flaticon-magnifying-glass:before {
+    content: map-get($flaticon_xeco-map, "magnifying-glass");
+}
+.flaticon-search:before {
+    content: map-get($flaticon_xeco-map, "search");
+}
+.flaticon-user:before {
+    content: map-get($flaticon_xeco-map, "user");
+}
+.flaticon-user-1:before {
+    content: map-get($flaticon_xeco-map, "user-1");
+}
+.flaticon-padlock:before {
+    content: map-get($flaticon_xeco-map, "padlock");
+}
+.flaticon-padlock-1:before {
+    content: map-get($flaticon_xeco-map, "padlock-1");
+}
+.flaticon-time:before {
+    content: map-get($flaticon_xeco-map, "time");
+}
+.flaticon-clock:before {
+    content: map-get($flaticon_xeco-map, "clock");
+}
+.flaticon-mail:before {
+    content: map-get($flaticon_xeco-map, "mail");
+}
+.flaticon-open-email:before {
+    content: map-get($flaticon_xeco-map, "open-email");
+}
+.flaticon-pin:before {
+    content: map-get($flaticon_xeco-map, "pin");
+}
+.flaticon-location:before {
+    content: map-get($flaticon_xeco-map, "location");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon_xeco-map, "telephone");
+}
+.flaticon-phone-call:before {
+    content: map-get($flaticon_xeco-map, "phone-call");
+}
+.flaticon-support:before {
+    content: map-get($flaticon_xeco-map, "support");
+}
+.flaticon-shopping-cart:before {
+    content: map-get($flaticon_xeco-map, "shopping-cart");
+}
+.flaticon-shopping-cart-1:before {
+    content: map-get($flaticon_xeco-map, "shopping-cart-1");
+}
+.flaticon-heart:before {
+    content: map-get($flaticon_xeco-map, "heart");
+}
+.flaticon-heart-1:before {
+    content: map-get($flaticon_xeco-map, "heart-1");
+}
+.flaticon-code:before {
+    content: map-get($flaticon_xeco-map, "code");
+}
+.flaticon-folder-1:before {
+    content: map-get($flaticon_xeco-map, "folder-1");
+}
+.flaticon-curve:before {
+    content: map-get($flaticon_xeco-map, "curve");
+}
+.flaticon-inspiration:before {
+    content: map-get($flaticon_xeco-map, "inspiration");
+}
+.flaticon-left-chevron:before {
+    content: map-get($flaticon_xeco-map, "left-chevron");
+}
+.flaticon-trophy:before {
+    content: map-get($flaticon_xeco-map, "trophy");
+}
+.flaticon-winner:before {
+    content: map-get($flaticon_xeco-map, "winner");
+}
+.flaticon-rating:before {
+    content: map-get($flaticon_xeco-map, "rating");
+}
+.flaticon-life-insurance:before {
+    content: map-get($flaticon_xeco-map, "life-insurance");
+}
+.flaticon-car-insurance:before {
+    content: map-get($flaticon_xeco-map, "car-insurance");
+}
+.flaticon-protection:before {
+    content: map-get($flaticon_xeco-map, "protection");
+}
+.flaticon-travel-insurance:before {
+    content: map-get($flaticon_xeco-map, "travel-insurance");
+}
+.flaticon-protection-1:before {
+    content: map-get($flaticon_xeco-map, "protection-1");
+}
+.flaticon-conflagration:before {
+    content: map-get($flaticon_xeco-map, "conflagration");
+}
+.flaticon-property-insurance:before {
+    content: map-get($flaticon_xeco-map, "property-insurance");
+}
+.flaticon-family:before {
+    content: map-get($flaticon_xeco-map, "family");
+}
+.flaticon-healthcare:before {
+    content: map-get($flaticon_xeco-map, "healthcare");
+}
+.flaticon-house:before {
+    content: map-get($flaticon_xeco-map, "house");
+}
+.flaticon-ship:before {
+    content: map-get($flaticon_xeco-map, "ship");
+}
+.flaticon-family-insurance:before {
+    content: map-get($flaticon_xeco-map, "family-insurance");
+}
+.flaticon-umbrella:before {
+    content: map-get($flaticon_xeco-map, "umbrella");
+}
+.flaticon-megaphone:before {
+    content: map-get($flaticon_xeco-map, "megaphone");
+}
+.flaticon-bubble-chat:before {
+    content: map-get($flaticon_xeco-map, "bubble-chat");
+}
+.flaticon-speech-bubble:before {
+    content: map-get($flaticon_xeco-map, "speech-bubble");
+}
